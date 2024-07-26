@@ -1,0 +1,59 @@
+body{
+    margin-top: 100px;
+}
+main{
+    width: 1240px;
+    margin:auto;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.watch-card{
+    width: 400px;
+    background-color: #0dcbf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.shoe-card{
+    width: 400px;
+    background-color: #0e6ffd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.bag-card{
+    width: 400px;
+    background-color: #198754;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (min-width: 420px) and (max-width: 700px) { 
+    .card{
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }    
+}
+@media (min-width: 220px) and (max-width: 419px) { 
+    .card{
+        flex-direction: column;
+        justify-content: center;
+    }    
+}
